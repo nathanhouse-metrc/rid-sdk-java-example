@@ -86,10 +86,8 @@ window never appears on screen. To regenerate them after changing the UI:
   └── rid-sdk-java-example/   ← this repo
   ```
 
-  The API tabs need the SDK's Retail ID API client (`com.retailid.api`). If your
-  rid-sdk checkout does not have `java/src/main/java/com/retailid/api/` yet,
-  check out a branch that does (for example `java-api-1`). The build stops with
-  a message saying so if the SDK is missing.
+  The API tabs need the SDK's Retail ID API client (`com.retailid.api`).
+   The build stops with a message saying so if the SDK is missing.
 
 ## How the SDK is included
 
